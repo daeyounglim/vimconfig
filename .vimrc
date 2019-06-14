@@ -12,6 +12,8 @@ call plug#end()
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'flazz/vim-colorschemes'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 call vundle#end()
 
 " Turn on syntax highlighting
@@ -106,7 +108,8 @@ set listchars=tab:▸\ ,eol:¬
 map <leader>l :set list!<CR> " Toggle tabs and EOL
 
 " Color scheme (terminal)
-colorscheme apprentice
+colorscheme paramountblue " rj-white/vim-colors-paramountblue
+let g:airline_theme='jellybeans'
 set t_Co=256
 set background=dark
 let g:solarized_termcolors=256
