@@ -14,6 +14,7 @@ call vundle#begin()
 Plugin 'flazz/vim-colorschemes'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'https://gitlab.com/rj-white/vim-colors-paramountblue'
 call vundle#end()
 
 " Turn on syntax highlighting
